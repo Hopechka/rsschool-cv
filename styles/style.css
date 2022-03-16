@@ -178,7 +178,12 @@ img.logo {
   padding-bottom: 15px;
   border-bottom: 1px solid #1a2c25;
 }
-
+#code-example {
+  padding-top: 15px;
+  border-top: 1px solid #1a2c25;
+}
+/* ________________________ */
+/* ________Work experience / Projects________ */
 #footer {
   height: 8vh;
   margin: auto;
