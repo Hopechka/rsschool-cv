@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/67dea4c5a0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>My resume</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="bg"></div>
+      <div class="container">
+        <header>
+          <header>
+            <div id="header">
+              <div class="info">
+                <div class="name"><h1>Nadezhda Budarina</h1></div>
+                <div class="prof_name">Front-end developer</div>
+                <div class="contact">Contact</div>
+                <div>
+                  <ul class="icons">
+                    <li>
+                      <i class="fas fa-envelope"></i><b> hopechka@gmail.com</b>
+                    </li>
+                    <li>
+                      <i class="fas fa-map-marker-alt"></i
+                      ><b> Saint-Petersburg, Russia</b>
+                    </li>
+                    <li>
+                      <i class="fas fa-phone-alt"></i><b> +7 925 444-25-30</b>
+                    </li>
+                    <li>
+                      <i class="fab fa-github"></i
+                      ><b>
+                        <a href="https://github.com/Hopechka" target="_blank"
+                          >Hopechka</a
+                        >
+                      </b>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="photo">
+                <img
+                  class="photo_for_resume"
+                  src="assets/pictures/photo_for_resume.jpg"
+                  alt="photo for resume"
+                />
+              </div>
+            </div>
+            <nav>
+              <ul class="nav">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code-example">Code Example</a></li>
+                <li>
+                  <a href="#work-experience">Work experience / Projects</a>
+                </li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
+              </ul>
+            </nav>
+          </header>
+        </header>
+        <main>
+          <section id="about-me">
+            <h2>About me</h2>
+            <p>
+              I am 36 years old. For the last few years I have been working as a
+              customs declaration specialist. My current job does not give me
+              the opportunity to develop as a specialist and work outside of
+              Russia. So I decided to change my profession. I like logical
+              thinking, exact sciences and order. That's why I chose the
+              profession of front-end developer.
+            </p>
+          </section>
+          <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills">
+              <li>
+                <img
+                  src="assets/img/html_logo.png"
+                  alt="html logo"
+                  class="logo"
+                />
+                <progress value="90" max="100"></progress>
+              </li>
+              <li>
+                <img
+                  src="assets/img/css_logo.png"
+                  alt="css logo"
+                  class="logo"
+                />
+                <progress value="80" max="100"></progress>
+              </li>
+              <li>
+                <img src="assets/img/js_logo.png" alt="js logo" class="logo" />
+                <progress value="30" max="100"></progress>
+              </li>
+              <li>
+                <img
+                  src="assets/img/github_logo.png"
+                  alt="github logo"
+                  class="github logo"
+                />
+                <progress value="70" max="100"></progress>
+              </li>
+              <li>
+                <img
+                  src="assets/img/figma_logo.png"
+                  alt="figma logo"
+                  class="logo"
+                />
+                <progress value="70" max="100"></progress>
+              </li>
+            </ul>
+          </section>
+          <section id="code-example">
+            <h2>Code Example</h2>
+            <pre>
+              <code>function solution(str, ending){
+                return (str.slice(str.length - ending.length )) === ending ? true : false;
+              }</code>
+              </pre>
+          </section>
+          <section id="work-experience">
+            <h2>Work experience / Projects</h2>
+            <ul class="work-experience">
+              <li>
+                <a
+                  href="https://Hopechka.github.io/rsschool-cv/"
+                  target="_blank"
+                  >Creating a cv as part of the rs-school assignment;</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://rolling-scopes-school.github.io/hopechka-JSFEPRESCHOOL/portfolio"
+                  target="_blank"
+                  >Creating the site as part of the rs-school assignment;</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://rolling-scopes-school.github.io/hopechka-JSFEPRESCHOOL/audio-player/"
+                  target="_blank"
+                  >Creating a music-player as part of the rs-school
+                  assignment;</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://rolling-scopes-school.github.io/hopechka-JSFEPRESCHOOL/memory-game/"
+                  target="_blank"
+                  >Creating a memory-game project as part of the rs-school
+                  assignment;</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section id="education">
+            <h2>Education</h2>
+            <ul class="education">
+              <li>
+                Kuzbass State Technical University (KuzSTU) <br />
+                Specialty: Chemical technology of inorganic substances,
+                Engineering degree
+              </li>
+              <li>
+                <a
+                  href="https://app.rs.school/certificate/983q1a64"
+                  target="_blank"
+                  >RS Schools Course «JavaScript/Front-end. Stage 0»</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section id="languages">
+            <h2>Languages</h2>
+            <ul class="languages">
+              <li><b>Russian</b> - native speaker</li>
+              <li>
+                <b>English B1</b> - I had been practicing English, when I
+                traveled in the USA few months
+              </li>
+            </ul>
+          </section>
+        </main>
+        <footer id="footer">
+          <div class="footer-container">
+            <div class="data">
+              <p class="author">
+                Author: Nadezhda Budarina <br />
+                Date: 03.2022
+              </p>
+            </div>
+            <div class="git-link">
+              <div>
+                <a href="https://github.com/Hopechka" target="_blank"
+                  ><img src="assets/img/github_logo.png" alt="github_logo"
+                /></a>
+              </div>
+              <div>
+                <a href="https://github.com/Hopechka" target="_blank"
+                  ><span>Hopechka</span></a
+                >
+              </div>
+            </div>
+            <div class="school-link">
+              <a href="https://rs.school/js-stage0/" target="_blank"
+                ><img src="assets/img/rs_school_js.svg" alt="rs_school_js logo"
+              /></a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

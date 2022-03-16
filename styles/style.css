@@ -1,0 +1,271 @@
+/* * {
+  outline: 1px solid red;
+} */
+body {
+  font: normal 500 16px/24px Courier new, sans-serif;
+  color: #1a2c25;
+  max-width: 1280px;
+  min-height: 100vh;
+  background: rgb(234, 236, 236);
+  margin: auto;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 1;
+  padding: 1px;
+  margin: 20px 40px;
+}
+
+.bg {
+  background: url(https://www.anypics.ru/download.php?file=201211/2560x1440/anypics.ru-40253.jpg)
+    no-repeat center;
+  opacity: 0.4;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.container {
+  margin: 15px;
+  padding-top: 15px;
+}
+/* ________header________ */
+nav {
+  box-sizing: border-box;
+  margin: auto;
+}
+ul {
+  padding: 0;
+  margin: 5px 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+
+ul li {
+  list-style: none;
+}
+ul.nav li {
+  display: inline;
+  padding: 0 5px;
+  border: 1px solid #057e4f;
+  border-radius: 16px;
+  align-self: center;
+  text-align: center;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+a:hover {
+  color: #057e4f;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  justify-content: flex-start;
+}
+.icons li {
+  width: 49%;
+  padding: 5px 0;
+}
+.photo_for_resume {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #1a2c25;
+  float: right;
+  margin-right: 15px;
+}
+h1 {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.fas,
+.fab {
+  color: #057e4f;
+}
+/* ________________________ */
+/* ________about me________ */
+#about-me {
+  border-bottom: 1px solid #1a2c25;
+  padding-bottom: 15px;
+}
+/* ________________________ */
+/* ________Skills________ */
+.name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.prof_name,
+.contact {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+progress {
+  background: none;
+  border: 1px solid rgb(26, 44, 37);
+  height: 18px;
+  width: 200px;
+  border-radius: 8px;
+}
+
+progress::-webkit-progress-bar {
+  background: none;
+  border-radius: 7px;
+}
+progress::-webkit-progress-value {
+  background-color: #057e4f;
+  border-radius: 7px;
+  box-shadow: 0 0 1px 1px rgba(26, 44, 37, 0.8);
+}
+progress::-moz-progress-bar {
+  background: none;
+  border-radius: 7px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+  gap: 5px;
+}
+.skills li {
+  width: 49%;
+  height: 65px;
+  display: inline;
+}
+
+img.logo {
+  width: 40px;
+  vertical-align: middle;
+}
+.github {
+  filter: invert(100%) sepia(100%) saturate(5032%) hue-rotate(358deg)
+    brightness(104%) contrast(113%);
+}
+/* ________________________ */
+/* ________Code Example________ */
+#languages,
+#education,
+#work-experience,
+#code-example {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #1a2c25;
+}
+#code-example {
+  padding-top: 15px;
+  border-top: 1px solid #1a2c25;
+}
+/* ________________________ */
+/* ________Work experience / Projects, Education, language________ */
+.work-experience,
+.education,
+.languages {
+  padding-left: 15px;
+}
+.work-experience li,
+.education li,
+.languages li {
+  list-style: circle;
+  padding-left: 5px;
+}
+/* ________________________ */
+/* ________footer________ */
+#footer {
+  height: 8vh;
+  margin: auto;
+  display: flex;
+  box-sizing: border-box;
+  padding: 25px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-grow: 1;
+}
+
+.author {
+  font-style: italic;
+}
+
+.data,
+.git-link,
+.school-link {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.git-link a {
+  text-decoration: none;
+}
+.git-link a > span:hover {
+  color: #057e4f;
+}
+
+.git-link span {
+  padding-left: 5px;
+}
+
+.git-link img {
+  width: 40px;
+  opacity: 0.9;
+  filter: invert(100%) sepia(100%) saturate(5032%) hue-rotate(358deg)
+    brightness(104%) contrast(113%);
+}
+
+.git-link img:hover,
+.school-link img:hover {
+  opacity: 1;
+}
+.school-link img {
+  width: 90px;
+  opacity: 0.9;
+}
+
+.data,
+.school-link {
+  padding: 0 10px 0;
+}
+
+/* ________________________ */
+/* ________Adaptive________ */
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    width: 100%;
+  }
+}

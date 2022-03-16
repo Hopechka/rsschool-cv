@@ -1,1 +1,1 @@
-https://Hopechka.github.io/rsschool-cv/cv
+https://Hopechka.github.io/rsschool-cv/
