@@ -183,7 +183,20 @@ img.logo {
   border-top: 1px solid #1a2c25;
 }
 /* ________________________ */
-/* ________Work experience / Projects________ */
+/* ________Work experience / Projects, Education, language________ */
+.work-experience,
+.education,
+.languages {
+  padding-left: 15px;
+}
+.work-experience li,
+.education li,
+.languages li {
+  list-style: circle;
+  padding-left: 5px;
+}
+/* ________________________ */
+/* ________footer________ */
 #footer {
   height: 8vh;
   margin: auto;
