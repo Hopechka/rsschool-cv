@@ -1,0 +1,72 @@
+* {
+  outline: 1px solid red;
+}
+body {
+    font: normal 500 16px/24px Courier new, sans-serif;
+    color: #1a2c25;
+    max-width: 1280px;
+    min-height: 100vh;
+    background: rgb(234, 236, 236);
+    margin: auto;
+  }
+  
+  .wrapper {
+    position: relative;
+    z-index: 1;
+    padding: 1px;
+    margin: 20px 40px;
+  }
+  
+  .bg {
+    background: url(https://www.anypics.ru/download.php?file=201211/2560x1440/anypics.ru-40253.jpg)
+      no-repeat center;
+    opacity: 0.4;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  .container {
+    margin: 15px;
+    padding-top: 15px;
+  }
+
+  
+  #header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  #about-me {
+    border-bottom: 1px solid #1a2c25;
+    padding-bottom: 15px;
+  }
+  
+  
+  
+  #languages,
+  #education,
+  #work-experience,
+  #code-example {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #1a2c25;
+  }
+  
+  #footer {
+    height: 8vh;
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+    padding: 25px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-grow: 1;
+  }
+  
+  
